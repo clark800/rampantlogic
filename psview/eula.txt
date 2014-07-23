@@ -1,0 +1,22 @@
+END USER LICENSE AGREEMENT
+
+1. DEFINITION
+This End User License Agreement (EULA) is a binding legal agreement between you and Rampant Logic (hereafter "the licensor"). By installing this software you agree to be bound by the terms of this agreement. 
+
+2. GRANT OF LICENSE
+A. Upon paying the licensing fee, you may install and use the licensed software on one computer OR multiple computers provided that all of the computers have the same primary user.
+B. All rights not expressly granted in this EULA are reserved by the licensor.
+
+3. COPYRIGHT
+The software is licensed, not sold. The licensor retains full ownership and copyrights for the software and included materials. You may not modify, decompile, disassemble, reverse-engineer, rent, loan, lease, sublicense, or create derivative works from the software without written consent from the licensor. 
+
+4. TERMINATION
+You may terminate this EULA at any time by deleting all your copies of the software. Your license to the software will automatically terminate if you violate the terms of this agreement. 
+
+5. DISCLAIMER OF WARRANTY
+A. NO WARRANTY. THIS SOFTWARE IS PROVIDED "AS-IS", INCLUDING ALL FAULTS, WITH NO WARRANTY OF ANY KIND.
+B. NO LIABILITY FOR DAMAGES. IN NO EVENT SHALL RAMPANT LOGIC BE LIABLE FOR DAMAGES RELATED TO THE USE OF THIS SOFTWARE. IF YOUR JURISDICTION DISALLOWS THIS EXCLUSION OF LIABILITY YOU ARE NOT GRANTED LICENSE TO INSTALL THIS SOFTWARE.
+C. THIS PARAGRAPH SUPERSEDES ALL OTHER PARAGRAPHS IN THIS EULA.
+
+6. ACKNOWLEDGEMENT
+You acknowledge that you have read, understood, and agree to be bound by the terms of this agreement.

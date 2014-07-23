@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.37 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Rampant Logic</Company_Name>
+		<Address_1>515 Kelton Ave. Apt. 202</Address_1>
+		<Address_2 />
+		<City_Town>Los Angeles</City_Town>
+		<State_Province>CA</State_Province>
+		<Zip_Postal_Code>90024</Zip_Postal_Code>
+		<Country>United States</Country>
+		<Company_WebSite_URL>http://www.rampantlogic.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Chris</Author_First_Name>
+			<Author_Last_Name>Clark</Author_Last_Name>
+			<Author_Email>support@rampantlogic.com</Author_Email>
+			<Contact_First_Name>Chris</Contact_First_Name>
+			<Contact_Last_Name>Clark</Contact_Last_Name>
+			<Contact_Email>support@rampantlogic.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@rampantlogic.com</Sales_Email>
+			<Support_Email>support@rampantlogic.com</Support_Email>
+			<General_Email>support@rampantlogic.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>HotPad Mini-Organizer</Program_Name>
+		<Program_Version>1.0</Program_Version>
+		<Program_Release_Month>04</Program_Release_Month>
+		<Program_Release_Day>20</Program_Release_Day>
+		<Program_Release_Year>2008</Program_Release_Year>
+		<Program_Cost_Dollars>20.00</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Shareware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>WinXP,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Business</Program_Specific_Category>
+		<Program_Category_Class>Business::PIMS &amp; Calendars</Program_Category_Class>
+		<Program_System_Requirements />
+		<File_Info>
+			<File_Size_Bytes>841186</File_Size_Bytes>
+			<File_Size_K>821</File_Size_K>
+			<File_Size_MB>0.80</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Organizer Planner Scheduler Task PIM Skin Skinnable Skinned </Keywords>
+			<Char_Desc_45>Skinnable mini-organizer</Char_Desc_45>
+			<Char_Desc_80>Skinnable mini-organizer with calendar, reminders, and email alerts</Char_Desc_80>
+			<Char_Desc_250 />
+			<Char_Desc_450 />
+			<Char_Desc_2000>HotPad is an easy to use, skinnable mini organizer that efficiently keeps track of not only day to day tasks, but anything that you want to do in the future. Tasks can be entered quickly into a categorical tree listing by pressing Enter and typing the name of the task. Then later when the task needs to be handled, it can be sent to the Active list with a single click, which places it in a short list of all tasks that are actively being worked on. Each task can be assigned a due date which shows up on the calendar, and a reminder can be set to display a notification balloon or send an email alert. Scheduled email alerts are helpful for remembering birthdays, anniversaries, doctor's appointments, car maintenance schedules, or any task that you don't want to forget. You can leave the program running on your home computer and receive reminders in your inbox at work, or vice versa. The simplicity and versatility of HotPad will give you the power to organize your business and personal life with minimal effort.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.rampantlogic.com/index-1.html</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>http://www.rampantlogic.com/hotpad/hotpad-screenshot.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.rampantlogic.com/hotpad/hotpad-box.jpg</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.rampantlogic.com/hotpad/hotpad-pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.rampantlogic.com/HotPadSetup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>END USER LICENSE AGREEMENT
+
+1. DEFINITION
+This End User License Agreement (EULA) is a binding legal agreement between you and Rampant Logic (hereafter "the licensor"). By installing this software you agree to be bound by the terms of this agreement. 
+
+2. GRANT OF LICENSE
+A. You may distribute, install, and use unmodified copies of the trial software to as many computers as you like.
+B. Upon paying the licensing fee, you may install and use the registered software on multiple computers providing that you are the primary user of each computer and that the software is never in use on more than one computer at a time. You may not register the program using a serial number unless if you paid the licensing fee.
+C. All rights not expressly granted in this EULA are reserved by the licensor.
+
+3. COPYRIGHT
+The software is licensed, not sold. The licensor retains full ownership and copyrights for the software and included materials. You may not modify, decompile, disassemble, reverse-engineer, rent, loan, lease, sublicense, or create derivative works from the software without written consent from the licensor. 
+
+4. TERMINATION
+You may terminate this EULA at any time by deleting all your copies of the software. Your license to the software will automatically terminate if you violate the terms of this agreement. 
+
+5. DISCLAIMER OF WARRANTY
+
+A. NO WARRANTY. THIS SOFTWARE IS PROVIDED "AS-IS", INCLUDING ALL FAULTS, WITH NO WARRANTY OF ANY KIND.
+
+B. NO LIABILITY FOR DAMAGES. IN NO EVENT SHALL RAMPANT LOGIC BE LIABLE FOR DAMAGES RELATED TO THE USE OF THIS SOFTWARE. IF YOUR JURISDICTION DISALLOWS THIS EXCLUSION OF LIABILITY YOU ARE NOT GRANTED LICENSE TO INSTALL THIS SOFTWARE.
+
+C. THIS PARAGRAPH SUPERCEDES ALL OTHER PARAGRAPHS IN THIS EULA.
+
+6. ACKNOWLEDGEMENT
+You acknowledge that you have read, understood, and agree to be bound by the terms of this agreement.</EULA>
+	</Permissions>
+</XML_DIZ_INFO>
