@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+NETWORK:
+https://publicsuffix.org/list/public_suffix_list.dat
+https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat
+
+CACHE:
+index.html
+icon.png
+
+FALLBACK:
+https://publicsuffix.org/list/public_suffix_list.dat https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat
+

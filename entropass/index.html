@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-md-4">
                     <h4>Decentralized</h4>
-                    100% free, open source, and not tied to any service provider
+                    Open source and not tied to any service provider
                 </div>
             </div>
         </div>
@@ -79,13 +79,16 @@
     <section id="portfolio">
         <div class="container">
             <div class="row top-margin">
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
                     <a href="https://chrome.google.com/webstore/detail/entropass/andieidkfneadmcoolmlecilekpnclki"><img src="img/chrome.png"></a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
                     <a href="https://addons.mozilla.org/en-US/firefox/addon/entropass/"><img src="img/firefox.png"></a>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
+                    <a href="webapp/"><img src="img/pwa.png"></a>
+                </div>
+                <div class="col-md-3 text-center">
                     <a href="https://github.com/clark800/entropass">
                     <div class="github-button">
                         <span class="github-icon"></span>
@@ -98,10 +101,50 @@
             <p>
                 Entropass generates site passwords on the fly using a hashing algorithm based on your master passphrase, private key file, and the domain of the site. The private key is saved in your browser, and the domain is automatically populated, so all you have to do is type in your master passphrase each time you login to a site.
             </p>
-
-            <h2 class="top-margin">What is a private key file?</h2>
+            <h2 class="top-margin">An open standard</h2>
             <p>
-                You can use any file as a private key, as long as it has never been sent over the internet or shared with anyone else. For example, you could take a picture of yourself or just type a lot of random characters into a text document. Another option is to write a simple program and use the program's output as your private key. The advantage of this is that you can reconstruct your private key if you ever lose all copies of it, as long as you remember how to write the program.
+            Everyone is free to use the Entropass password generation algorithm in their commercial or non-commercial software. It is based entirely on standardized cryptographic technologies that are commonly available in libraries across many languages. This is the pseudocode for the core algorithm:
+            <br/>
+            <code>
+                secret = passphrase + resetCount + sha512(privateKey) <br/>
+                password = b85encode(pbkdf2_hmac('sha512', secret, salt=domain, rounds=100))
+            </code>
+            <br/>
+            The full Python implemenation is just 13 lines of code with no dependencies and is available <a href="https://github.com/clark800/entropass/blob/master/core/entropass.py">here</a>.
+            </p>
+
+            <h2 class="top-margin">Comparison with LastPass and KeePass</h2>
+
+            <br/>
+            <div class="p">
+            <b>Pros vs. LastPass</b>
+            <ul>
+            <li>No need to trust closed source code
+            </ul>
+
+            <b>Pros vs. Keepass</b>
+            <ul>
+            <li>No password database to backup and sync between devices
+            </ul>
+
+            <b>Pros vs. Both</b>
+            <ul>
+            <li>Impossible to brute force: the private key is like adding 80 extra characters to your password
+            </ul>
+
+            <b>Cons</b>
+            <ul>
+            <li>Since Entropass generates passwords for you, you will have to reset each of your website passwords to use Entropass
+            <li>If your master passphrase or private key is compromised, you will have to reset all of your site passwords
+            </ul>
+            </div>
+
+            <h2 class="top-margin">FAQ</h2>
+            <h4>What if I have to reset a site password?</h4>
+            <p>You can increment the reset count to generate a new password for that site.</p>
+            <h4>What is a private key file?</h4>
+            <p>
+            You can use any file as a private key, as long as it has never been sent over the internet or shared with anyone else. For example, you could take a picture of yourself or just type a lot of random characters into a text document. Another option is to write a simple program and use the program's output as your private key. The advantage of this is that you can reconstruct your private key if you ever lose all copies of it, as long as you remember how to write the program.
             </p>
         </div>
     </section>
